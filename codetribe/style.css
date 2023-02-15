@@ -1,0 +1,37 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;400;600;700&display=swap');
+
+p{
+background-color: rgb(63, 212, 238); color: rgb(207, 116, 11); /*this is eternal styling */
+padding: 16px;/*to incrrases the space between text and its edges,we would have more spacing surround it*/
+}
+h1{color: rgb(5, 39, 23);}
+
+/*Cnanging styles through css, in html*/
+ul{
+    list-style: upper-roman;
+}
+
+#ShoppingListID{  background-color: rgb(184, 212, 212); height: 10px;}
+#ShoppingListID li{background-color: rgb(252, 244, 212); padding: 10px;/*padding increasees the space between my items*/
+                   margin: 8px;                             /*it show where everything starts and ends*/
+
+}
+
+/*Referencing class,ensure you name it first*/
+.maINclAsS{ height: 100vh;background-color: aqua;
+}
+/*Background image*/
+/*body{ background-image: url(./pic/rose.jpg);}*/
+
+.IconIMG
+{  width: 80px;height: 60px;}
+
+.SuBject{font-weight: bolder;font-family: 'Roboto Mono', monospace;}
+
+.ProFiciEncy{ font-weight: bolder;}
+
+#SkillList{ width: 30%;}
+
+h2{ color: chocolate;}
+i{width: 100px;}

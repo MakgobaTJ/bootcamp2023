@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
    <title>Codetribe</title>
+   <!--
+    <head>
+     <style>
+       p{  background-color: crimson;  }    internal methof styling
+     </style>
+    </head>
+   -->
+
+    <head>
+       <link rel="stylesheet"  href="./style.css">
+    </head>
    <body>
 
      <head>
@@ -9,12 +20,12 @@
       crossorigin="anonymous" referrerpolicy="no-referrer" />
       <!--the head -->
       <div style="background-color: cadetblue;">
-        <table style="width: 100%;">
+        <table border="0"style="width: 100%;">
          
           <tr>
            <td>
             <a href="#">
-              <img src="../codetribe/Assets/logo/EAtery.jpg"width="100px" alt="Eatery logo"style="border-radius:50%";/>
+              <img src="./Assets/logo/EAtery.jpg"width="100px" alt="Eatery logo"style="border-radius:50%"border-image;/>
             </a>
             
 
@@ -44,31 +55,47 @@
 
          <table  style="width: 100%;">
           <tr>
-            <td style="width: 100%;"colspan="2"><!--colspan to remove the remaining space on thr right-->
+               <!--style="width: 100%;"colspan="2">--><!--colspan to remove the remaining space on thr right-->
 
-              <img src="./Assets/pic/rose.jpg"width="100%"
+               <!-- <img src="./Assets/pic/rose.jpg"width="100%"
                                               height="400px" 
-              style="object-fit:cover ;alt " blue_rose " ;>
-              
+               style="object-fit:cover ;alt " blue_rose " ;
+                >
+                -->
+
+           <!--Adding vid from local source-->
+           <!--<td colspan="2">
+              <video width="100%;"height="450vh"controls> 
+                <source src="../codetribe/Assets/vidz/bun.mp4"/>
+                Your browser does not support thevideo gtag.
+              </video>
             </td>
+            -->
+
+            <!---Adding Video from yuotube (iframes important to embed)-->
+            <iframe width="100%" height="315"
+            src="https://www.youtube.com/embed/ysEN5RaKOlA?autoplay=1"><!--Making it to play automatically and once.-->
+            </iframe> 
+
         
           </tr>
 
           <tr>
             <td style="padding-left: 20vh;">  
 
-             <h1>CR Ramaphosa</h1>
-             <p>Matamela Cyril Ramaphosa (born 17 November 1952) is a South African businessman and
-               politician who is currently serving as<br> the fifth democratically elected president of South Africa.
-                Formerly an anti-apartheid activist, trade union leader, and businessman, 
-              Ramaphosa is also the president of the African National Congress (ANC).</p>
+             <h1>TJ Makgoba</h1>
+             <p>Thapelo Makgoba,Is a graduate in Bsc Statistics and Operation Research, 
+              who recently obtained a Business Analysis NQF6 certifcate. 
+              I am a hard worker who do not shy away from challenges ,<br>eager to learn.I am fascinated  by anything computer, and how they work and also how they 
+              influence life as we know it.I posses programmng skills such as pyhton,c++,SQl and etc..</p>
             </td> 
-            <td align="right" style="padding-right: 20vh;padding-top: 30px;"> 
-              <img src=" https://th.bing.com/th?u=https%3a%2f%2ftse3.mm.bing.net%2fth%3fid%3dOIP.NwzvJEv-__p0EsuRfA7kTQHaGL&ehk=Hq3rHqR05nfmbr4PbSarcr%2bWEkK52sX9MIQ2%2fdCpmdA%3d&w=118&h=99&pcl=eef2f7&o=6&oif=webp&pid=AppEx"
+            <td align="right" style="padding-right: 20vh;padding-top: 30px;border-image: 15px;"> 
+               <img src="./pic/tp.jpg"
                    width="200px" 
-                   height="150px"
-                   style="border-radius:50% ; object-fit: cover; "
+                   height="200px"
+                   style="border-radius:50% ; object-fit: cover; background-color: rgb(85, 40, 40); "
                 >
+
             </td>
           </tr>  
 
@@ -79,21 +106,29 @@
      <footer>
        <table style="width: 100%;height:100px;background-color: rgb(127, 149, 182);" > 
         <tr>
+      
+          <td style="padding-left:20vh ;"> 15_Biccard ,Polokwane,0700</td>
+          <td colspan="2"style="margin: left: 100vh; width: 100px;">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4601.786385367708!2d29.455529115599656!3d-23.
+            9166862806962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d7841c957887%3A0x9043b410ea0c9cd1!2s15%20
+            Biccard%20St%2C%20Polokwane%20Central%2C%20Polokwane%2C%200700!5e1!3m2!1sen!2sza!4v1676383062479!5m2!1sen!2sza" width="280" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-          <td style="padding-left:20vh ;"> 15,Biccard ,Polokwane,0700</td>
-          <td colspan="2"style="margin: left: 100vh;">add Map</td >
+          </td >
+       
 
         </tr>  
         <tr>
-          <td style="padding-left:20vh ;" ><a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook">     </i></a></td>
-          <td style="margin-right: 10px><a href="https://twitter.com/?lang=en-za/"><i class="fa-brands fa-twitter"> </i></a></td>
-          <td style="padding-right:20vh ;"><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin">      </i></a></td>
+          <td style="padding-left:20vh ;" ><a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook">     </i></a>  </td>
+          <td style="margin-right: 10px;"><a href="https://twitter.com/?lang=en-za/"><i class="fa-brands fa-twitter">   </i></a>  </td>
+          <td style="padding-right:20vh ;"><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin">      </i></a>  </td>
+          <td>   <i class="fa fa-phone" aria-hidden="true">0713771053</i> </td>
         </tr>
         
       </table>
       
      </footer>
-
+ 
    </body>
 
 
