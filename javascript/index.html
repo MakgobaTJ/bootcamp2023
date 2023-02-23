@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"  href="./style4JS.css"/> 
+
+        <script>
+            console.log('Hello jvas')/* this is used to check f there are no any errors*/
+           /* alert('to inpect using alert');^*/
+          // alert(new Date())
+
+            function ThumbsUp(){/*we have a function called THumbUP*/
+                document.getElementById('MyIMG').src="https://cdn.icon-icons.com/icons2/1238/PNG/96/thumbup_83783.png";
+            }
+            function ThumbsDown(){
+               /* alert('thumbs down') checking if its connected*/
+               /*document.getElementById('MyIMG').src="./Assests/Images/thumbdown.png"; Only because i prefer if its from onlie*/
+               document.getElementById('MyIMG').src="https://cdn.icon-icons.com/icons2/1238/PNG/96/thumbdown_83803.png";
+            }
+
+            function NAvigatetonextpage(){
+
+                window.location.href='./home.html';
+                // sending data from one page to the next
+                    
+                localStorage.setItem('id','Maps M');//transferring this infor to local storage then next page
+
+            }
+       
+       </script>
+    </head>
+ 
+     <body >
+        <p>Hello Maps</p>
+
+        <h2 style="color: rgb(24, 143, 103);">Are you sleeping </h2>
+        <div Class="maincontaineR">
+          <img src="https://cdn.icon-icons.com/icons2/1238/PNG/96/thumbup_83783.png" ID="MyIMG"alt="thumb u3p"/><!--This line is quite confusing if we have functions that kinda does tge same-->
+        
+        <div> 
+            <button onclick="ThumbsUp()">Thumbs Up</button><!--When we click functiom thumbUP() excecute/be triggerd it  as it is defined above-->
+            
+            <button style="background-color: rgb(0, 0, 0);color: rgb(201, 3, 174);" onclick=" NAvigatetonextpage()">Go to next page</button> 
+
+            <button onclick="ThumbsDown()">Thumbs Down</button>
+        </div>
+        </div> 
+     </body>
+
+     <footer> 
+
+     </footer>
+</html>
